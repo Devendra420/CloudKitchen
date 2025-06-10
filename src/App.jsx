@@ -1,11 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Restaurants from './pages/Restaurants/Restaurants';
-import HowItWorks from './pages/HowItWorks/HowItWorks';
-import RegisterRestaurants from './pages/RegisterRestaurants/RegisterRestaurants';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Restaurants from "./pages/Restaurants/Restaurants";
+import HowItWorks from "./pages/HowItWorks/HowItWorks";
+import RegisterRestaurants from "./pages/RegisterRestaurants/RegisterRestaurants";
+// import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/Navbar/Navbar";
+
 // import Login from './pages/Login';
 
 function App() {
@@ -22,6 +24,6 @@ function App() {
       </Routes>
     </Router>
   );
-} 
+}
 
 export default App;
