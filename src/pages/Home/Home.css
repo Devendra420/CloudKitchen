@@ -1,0 +1,54 @@
+.hero {
+  height: 67vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.overlay {
+  width: 50%;
+  height: 100%;
+  background: rgba(99, 119, 145, 0.7);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+
+
+.hero-content {
+  color: white;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  font-weight: 800;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons>:nth-child(1):hover
+{
+    background: #073579;
+}
+
+.buttons>:nth-child(2):hover
+{
+  scale: 1.1;
+}
